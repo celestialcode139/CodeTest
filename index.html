@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classes that spark something.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+
+      <!-- Hero -->
+      <header class="hero">
+        <div class="hero__left">
+          <h1 class="hero__title">
+            Classes that
+            <span class="accent">spark something.</span>
+          </h1>
+          <div class="pricing" role="tablist" aria-label="Pricing">
+            <div class="price-pill price-pill--active" role="tab" aria-selected="true">
+              <div class="price-pill__price">$15</div>
+              <div class="price-pill__label">Single Class</div>
+              <div class="price-pill__sub">Pay per class • No Commitment</div>
+            </div>
+            <div class="price-pill price-pill--inactive" role="tab" aria-selected="false">
+              <div class="price-pill__price">$55</div>
+              <div class="price-pill__label">Full Session</div>
+              <div class="price-pill__sub">Four Classes • <strong>Save $5</strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__right">
+          <p class="hero__desc">One class a week. Four a month. Classes only run when 10 students are in.</p>
+          <span class="pill">Once a week · <strong>4 classes per month</strong></span>
+        </div>
+      </header>
+
+      <!-- Class cards -->
+      <div class="classes">
+        <article class="class-card class-card--craft">
+          <div>
+            <div class="class-card__label">CLASS | 01</div>
+            <h2 class="class-card__title">Craft Class</h2>
+            <div class="class-card__sub">Sub-activity: <strong>Pottery Painting</strong></div>
+            <p class="class-card__desc">Fine motor skills and creative thinking through pottery and crafting. All
+              materials provided, all mess contained.</p>
+          </div>
+          <div class="class-card__divider"></div>
+          <div class="class-card__footer">
+            <div>
+              <div class="class-card__price">$15</div>
+              <div class="class-card__price-sub">
+                Per student · single drop-in class<br />
+                <strong>Or book the full SESSION for $55 (save $5)</strong>
+              </div>
+            </div>
+            <button class="btn btn--aqua" type="button">Book Class</button>
+          </div>
+        </article>
+
+        <article class="class-card class-card--art">
+          <div>
+            <div class="class-card__label">CLASS | 02</div>
+            <h2 class="class-card__title">Art Class</h2>
+            <div class="class-card__sub">Sub-activity: <strong>Canvas Painting</strong></div>
+            <p class="class-card__desc">Self-expression through colour, shape, and material. They make something every
+              Thursday. You hang it on the fridge.</p>
+          </div>
+          <div class="class-card__divider"></div>
+          <div class="class-card__footer">
+            <div>
+              <div class="class-card__price">$15</div>
+              <div class="class-card__price-sub">
+                Per student · single drop-in class<br />
+                <strong>Or book the full SESSION for $55 (save $5)</strong>
+              </div>
+            </div>
+            <button class="btn btn--purple" type="button">Book Class</button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Counter + Invite -->
+      <div class="counter-block">
+        <div class="counter-card">
+          <div class="counter-card__head">
+            <h3 class="counter-card__title">Class holds at 10 students minimum</h3>
+            <div class="counter-card__fraction">
+              <span class="num">6</span><span class="slash">/</span><span class="total">10</span>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress__fill"></div>
+          </div>
+          <div class="avatars">
+            <div class="avatar-stack">
+              <span class="avatar avatar--pink">A</span>
+              <span class="avatar avatar--purple">F</span>
+              <span class="avatar avatar--orange">V</span>
+              <span class="avatar avatar--aqua">C</span>
+              <span class="avatar avatar--green">G</span>
+            </div>
+            <span class="avatars__text"><strong>6 students</strong> already booked · 4 spots left</span>
+          </div>
+        </div>
+
+        <div class="counter-card invite">
+          <div>
+            <div class="invite__eyebrow">Invite friends</div>
+            <h3 class="invite__title">
+              <span class="top">Your share fills the room.</span>
+              <span class="bottom">And gets you a deal.</span>
+            </h3>
+            <p class="invite__lede">
+              Classes only run at 10 students. Every friend who books moves the needle for everyone <strong>including
+                you.</strong>
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <span class="stat__label">Your friend saves</span>
+                <span class="stat__value">10%</span>
+              </div>
+              <div class="stat">
+                <span class="stat__label">Class gets</span>
+                <span class="stat__value">closer to running</span>
+              </div>
+              <div class="stat">
+                <span class="stat__label">You work toward</span>
+                <span class="stat__value">20% off</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="goal">
+            <div>
+              <div class="goal__eyebrow">Your Goal</div>
+              <h4 class="goal__title">Get 3 friends to book<br />within 30 days</h4>
+              <p class="goal__copy">Your next class drops to 20% off. One booking in so far.</p>
+            </div>
+            <div class="goal__progress">
+              <div class="goal__progress-head">
+                <span>Friends booked</span>
+                <span><span style="color:var(--purple-500)">1</span> <span class="total">/ 3</span></span>
+              </div>
+              <div class="goal__bars">
+                <div class="goal__bar goal__bar--filled"></div>
+                <div class="goal__bar"></div>
+                <div class="goal__bar"></div>
+              </div>
+              <div class="goal__hint">2 more bookings in 30 days = 20% off your next class</div>
+            </div>
+            <div class="goal__reward">
+              <span class="goal__reward-tag">Goal Reward</span>
+              <span class="goal__reward-text">20% off your next class when all 3 book</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="counter-card" style="background:transparent;border:0;padding:8px 4px;">
+          <div class="invite__cta">
+            <button class="invite__cta-btn" type="button">Get My Invite Link (10% Off)</button>
+            <p class="invite__footnote">
+              Every friend who books also moves the class counter above helping secure the session for everyone who's
+              already in.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="bottom-cta">
+        <div class="bottom-cta__text">
+          <h2 class="bottom-cta__title">Spots fill fast. Next term starts soon.</h2>
+          <p class="bottom-cta__sub">Book at least a week before the term starts to secure your child's place.</p>
+        </div>
+        <div class="yellow-cta">
+          <button class="btn btn--yellow" type="button">Show me the schedule</button>
+          <button class="btn--yellow-arrow" type="button" aria-label="Show me the schedule">›</button>
+        </div>
+      </div>
+
+    </section>
+  </main>
+</body>
+
+</html>
